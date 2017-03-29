@@ -42,50 +42,50 @@ public class Main {
 
         System.out.println(exceptionFact.recursiveSumWithAssertion(listInt, 4, listInt.size() - 1));
 
-//        try {
-//            try {
-//                fileProcessor.readFile("C:///Users//sbogdanschi//IdeaProjects//JuneExceptions//txt.txt");
-//                exceptionFact.createFileNotFoundException("C:///Users//sbogdanschi//IdeaProjects//JuneExceptions//file.txt");
-//            } catch (NoSuchFileException ex) {
-//                throw new MyException(ex);
-//            }
-//        } catch (MyException myException) {
-//            //myException.printStackTrace();
-//            myException.handleException();
-//        }
-//
-//        fileProcessor.getDataStorage().forEach(System.out::println);
-//
-//        try {
-//            try {
-//                exceptionFact.createArrayException(list);
-//            } catch (IndexOutOfBoundsException ex) {
-//                throw new MyException(ex);
-//            }
-//        } catch (MyException myException) {
-//            //myException.printStackTrace();
-//            myException.handleException();
-//        }
-//
-//        try {
-//            try {
-//                exceptionFact.createClassCastException(list);
-//            } catch (ClassCastException ex) {
-//                throw new MyException(ex);
-//            }
-//        } catch (MyException myException) {
-//            //myException.printStackTrace();
-//            myException.handleException();
-//        }
-//
-//        try {
-//            try {
-//                throw exceptionFact.throwRandomException(exceptionMap);
-//            } catch (Throwable ex) {
-//                throw new MyException(ex);
-//            }
-//        }catch (MyException myExcp) {
-//            myExcp.handleException();
-//        }
+        try {
+            try {
+                fileProcessor.readFile("C:///Users//sbogdanschi//IdeaProjects//JuneExceptions//txt.txt");
+                exceptionFact.createFileNotFoundException("C:///Users//sbogdanschi//IdeaProjects//JuneExceptions//file.txt");
+            } catch (NoSuchFileException ex) {
+                throw new MyException(ex);
+            }
+        } catch (MyException myException) {
+            //myException.printStackTrace();
+            myException.handleException();
+        }
+
+        fileProcessor.getDataStorage().forEach(System.out::println);
+
+        try {
+            try {
+                exceptionFact.createArrayException(list);
+            } catch (IndexOutOfBoundsException ex) {
+                throw new MyException(ex);
+            }
+        } catch (MyException myException) {
+            //myException.printStackTrace();
+            myException.handleException();
+        }
+
+        try {
+            try {
+                exceptionFact.createClassCastException(list);
+            } catch (ClassCastException ex) {
+                throw new MyException(ex);
+            }
+        } catch (MyException myException) {
+            //myException.printStackTrace();
+            myException.handleException();
+        }
+
+        try {
+            try {
+                throw exceptionFact.throwRandomException(exceptionMap);
+            } catch (Throwable ex) {
+                throw new MyException(ex);
+            }
+        }catch (MyException myExcp) {
+            myExcp.handleException();
+        }
     }
 }
