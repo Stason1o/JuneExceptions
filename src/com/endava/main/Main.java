@@ -37,27 +37,27 @@ public class Main {
 
         fileProcessor.getDataStorage().forEach(System.out::println);
 
-//        try {
-//            try {
-//                exceptionFact.createArrayException(list);
-//            } catch (IndexOutOfBoundsException ex) {
-//                throw new MyException(ex);
-//            }
-//        } catch (MyException myException) {
-//            myException.printStackTrace();
-//            myException.handleException();
-//        }
-//
-//        try {
-//            try {
-//                exceptionFact.createClassCastException(list);
-//            } catch (ClassCastException ex) {
-//                throw new MyException(ex);
-//            }
-//        } catch (MyException myException) {
-//            myException.printStackTrace();
-//            myException.handleException();
-//        }
+        try {
+            try {
+                exceptionFact.createArrayException(list);
+            } catch (IndexOutOfBoundsException ex) {
+                throw new MyException(ex);
+            }
+        } catch (MyException myException) {
+            myException.printStackTrace();
+            myException.handleException();
+        }
+
+        try {
+            try {
+                exceptionFact.createClassCastException(list);
+            } catch (ClassCastException ex) {
+                throw new MyException(ex);
+            }
+        } catch (MyException myException) {
+            myException.printStackTrace();
+            myException.handleException();
+        }
 
         try{
             exceptionFact.throwRandomException();
