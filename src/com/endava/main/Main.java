@@ -1,17 +1,26 @@
 package com.endava.main;
 
-import com.endava.exepctions.ExceptionFact;
-import com.endava.exepctions.MyException;
+import com.endava.excepctions.ExceptionFact;
+import com.endava.excepctions.MyException;
 import com.endava.util.FileProcessor;
 import java.nio.file.NoSuchFileException;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by sbogdanschi on 29/03/2017.
  */
 public class Main {
     public static void main(String[] args) {
+
+        Map<Integer, Throwable> exceptionMap =  new LinkedHashMap<Integer, Throwable>() {{
+            put(1, new MyException());
+            put(2, new IndexOutOfBoundsException());
+            put(3, new ClassCastException());
+        }
+        };
         FileProcessor fileProcessor = new FileProcessor();
 
         ExceptionFact exceptionFact = new ExceptionFact();
@@ -23,7 +32,6 @@ public class Main {
         };
 
         try {
-
             try {
                 fileProcessor.readFile("C:///Users//sbogdanschi//IdeaProjects//JuneExceptions//txt.txt");
                 exceptionFact.createFileNotFoundException("C:///Users//sbogdanschi//IdeaProjects//JuneExceptions//file.txt");
@@ -31,7 +39,7 @@ public class Main {
                 throw new MyException(ex);
             }
         } catch (MyException myException) {
-            myException.printStackTrace();
+            //myException.printStackTrace();
             myException.handleException();
         }
 
@@ -44,7 +52,7 @@ public class Main {
                 throw new MyException(ex);
             }
         } catch (MyException myException) {
-            myException.printStackTrace();
+            //myException.printStackTrace();
             myException.handleException();
         }
 
@@ -55,19 +63,18 @@ public class Main {
                 throw new MyException(ex);
             }
         } catch (MyException myException) {
-            myException.printStackTrace();
+            //myException.printStackTrace();
             myException.handleException();
         }
 
-        try{
-            exceptionFact.throwRandomException();
-        }catch (Throwable  ex){
-            if (ex instanceof ClassCastException)
-                System.err.println("EXCEPTION ClassCastException!!!!!!!!");
-            else if(ex instanceof ArrayIndexOutOfBoundsException)
-                System.err.println("EXCEPTION ArrayIndexOutOfBoundException!!!!!!!");
-            else if(ex instanceof MyException)
-                System.err.println("MyException EXCEPTION!!!!!!");
+        try {
+            try {
+                throw exceptionFact.throwRandomException(exceptionMap);
+            } catch (Throwable ex) {
+                throw new MyException(ex);
+            }
+        }catch (MyException myExcp) {
+            myExcp.handleException();
         }
     }
 }

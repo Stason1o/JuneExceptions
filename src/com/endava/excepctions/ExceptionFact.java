@@ -1,4 +1,4 @@
-package com.endava.exepctions;
+package com.endava.excepctions;
 
 import com.endava.util.FileProcessor;
 
@@ -11,16 +11,9 @@ import java.util.*;
 public class ExceptionFact {
 
     private static FileProcessor fileProcessor;
-    private static Map<Integer, Throwable> exceptionMap;
 
     static {
         fileProcessor = new FileProcessor();
-        exceptionMap = new LinkedHashMap<Integer, Throwable>() {{
-                put(1, new MyException());
-                put(2, new ArrayIndexOutOfBoundsException());
-                put(3, new ClassCastException());
-            }
-        };
     }
 
     public ExceptionFact() {
@@ -39,7 +32,7 @@ public class ExceptionFact {
         System.out.println((String)list.get(0));
     }
 
-    public void throwRandomException() throws Throwable{
-        throw  exceptionMap.get((int)(Math.random() * 3) + 1);
+    public Throwable throwRandomException(Map<Integer, Throwable> exceptionMap) throws Throwable{
+        return exceptionMap.get((int)(Math.random() * 3) + 1);
     }
 }

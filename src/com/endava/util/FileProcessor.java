@@ -45,10 +45,6 @@ public class FileProcessor {
         }else throw new NoSuchFileException(location);
     }
 
-    public void writeToFile(String location){
-
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
