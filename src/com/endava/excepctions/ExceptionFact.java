@@ -35,4 +35,14 @@ public class ExceptionFact {
     public Throwable throwRandomException(Map<Integer, Throwable> exceptionMap) throws Throwable{
         return exceptionMap.get((int)(Math.random() * 3) + 1);
     }
+
+    public int recursiveSumWithAssertion(List<Integer> list, int position, int length){
+        assert !(position >= length);
+
+        if(!(position >= length - 1))
+            return list.get(position);
+        else {
+            return list.get(position) + recursiveSumWithAssertion(list, position + 1, length );
+        }
+    }
 }

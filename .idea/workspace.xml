@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3218e7f7-787a-4517-a9ed-2d5b5c64d037" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/endava/exepctions/ExceptionFact.java" afterPath="$PROJECT_DIR$/src/com/endava/excepctions/ExceptionFact.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/endava/exepctions/MyException.java" afterPath="$PROJECT_DIR$/src/com/endava/excepctions/MyException.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/endava/excepctions/ExceptionFact.java" afterPath="$PROJECT_DIR$/src/com/endava/excepctions/ExceptionFact.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/endava/main/Main.java" afterPath="$PROJECT_DIR$/src/com/endava/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/endava/util/FileProcessor.java" afterPath="$PROJECT_DIR$/src/com/endava/util/FileProcessor.java" />
     </list>
     <ignored path="JuneExceptions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/endava/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="42" column="77" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExceptionFact.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExceptionFact.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/endava/excepctions/ExceptionFact.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.72432435">
+              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileProcessor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileProcessor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/endava/util/FileProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4945946">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#426#427#0" expanded="true" />
@@ -116,8 +114,9 @@
         <option value="$PROJECT_DIR$/src/com/endava/exepctions/MyException.java" />
         <option value="$PROJECT_DIR$/src/com/endava/exepctions/ExceptionFact.java" />
         <option value="$PROJECT_DIR$/src/com/endava/excepctions/MyException.java" />
-        <option value="$PROJECT_DIR$/src/com/endava/main/Main.java" />
         <option value="$PROJECT_DIR$/src/com/endava/util/FileProcessor.java" />
+        <option value="$PROJECT_DIR$/src/com/endava/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/endava/excepctions/ExceptionFact.java" />
       </list>
     </option>
   </component>
@@ -288,9 +287,9 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.endava.main.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -375,10 +374,10 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -721,7 +720,7 @@
       <created>1490771997726</created>
       <option name="number" value="Default" />
       <updated>1490771997726</updated>
-      <workItem from="1490772001593" duration="10999000" />
+      <workItem from="1490772001593" duration="13017000" />
     </task>
     <task id="LOCAL-00001" summary="Create class ExceptionFact&#10;&#10;ExceptionFact - creates specific exception&#10;">
       <created>1490781734339</created>
@@ -753,11 +752,17 @@
       <option name="project" value="LOCAL" />
       <updated>1490781843233</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Some changes&#10;&#10;Moved Map from ExceptionFact to main.&#10;&#10;remove if cases in catch">
+      <created>1490789179698</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1490789179698</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10999000" />
+    <option name="totallyTimeSpent" value="13017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
@@ -805,7 +810,8 @@
     <MESSAGE value="Create class FileProcessor&#10;&#10;FileProcessor - class that reads from file&#10;" />
     <MESSAGE value="Main&#10;&#10;Main - main class" />
     <MESSAGE value="uncomment all lines" />
-    <option name="LAST_COMMIT_MESSAGE" value="uncomment all lines" />
+    <MESSAGE value="Some changes&#10;&#10;Moved Map from ExceptionFact to main.&#10;&#10;remove if cases in catch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some changes&#10;&#10;Moved Map from ExceptionFact to main.&#10;&#10;remove if cases in catch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -842,16 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/endava/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/endava/excepctions/MyException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -863,20 +859,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/endava/excepctions/ExceptionFact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/endava/util/FileProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4945946">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#426#427#0" expanded="true" />
@@ -889,6 +875,26 @@
             <element signature="e#774#775#0" expanded="true" />
             <element signature="e#1603#1604#0" expanded="true" />
             <element signature="e#1651#1652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/endava/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="77" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/endava/excepctions/ExceptionFact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72432435">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
